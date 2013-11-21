@@ -1,0 +1,9 @@
+@mixin full-size {
+  height: 100%;
+  width: 100%;
+}
+
+@mixin no-pad-mar {
+  margin: 0;
+  padding: 0;
+}

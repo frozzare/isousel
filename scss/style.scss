@@ -1,0 +1,39 @@
+@import "mixins";
+
+body {
+  margin: 0;
+}
+
+.isousel {
+
+  height: 100%;
+  overflow: hidden;
+
+  .isousel-items {
+
+    list-style: none;
+    height: 100%;
+
+    .isousel-item {
+      @include full-size;
+      display: block;
+      float: left;
+      position: absolute;
+      opacity: 0;
+      transition: opacity .5s ease-in-out;
+      -moz-transition: opacity .5s ease-in-out;
+      -webkit-transition: opacity .5s ease-in-out;
+
+      &.active {
+        opacity: 1;
+        z-index: 1000;
+      }
+
+      > iframe {
+        @include full-size;
+      }
+    }
+
+  }
+
+}

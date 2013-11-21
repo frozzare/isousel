@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.isousel {
+  height: 100%;
+  overflow: hidden;
+}
+.isousel .isousel-items {
+  list-style: none;
+  height: 100%;
+}
+.isousel .isousel-items .isousel-item {
+  height: 100%;
+  width: 100%;
+  display: block;
+  float: left;
+  position: absolute;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+}
+.isousel .isousel-items .isousel-item.active {
+  opacity: 1;
+  z-index: 1000;
+}
+.isousel .isousel-items .isousel-item > iframe {
+  height: 100%;
+  width: 100%;
+}
