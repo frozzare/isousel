@@ -1,9 +1,5 @@
 @import "mixins";
 
-body {
-  margin: 0;
-}
-
 .isousel {
 
   height: 100%;
@@ -37,3 +33,8 @@ body {
   }
 
 }
+
+// up
+// transition: all .5s cubic-bezier(0, 1, 0.5, 1);
+// -webkit-transition: all .5s cubic-bezier(0, 1, 0.5, 1);
+// -moz-transition: all .5s cubic-bezier(0, 1, 0.5, 1);

@@ -11,17 +11,54 @@
 
     <div class="isousel">
       <div class="isousel-items">
-        <figure class="isousel-item active" style="background-image:url(http://25.media.tumblr.com/7e1b1652c64a436d289c0e01db65171d/tumblr_mve2y4i1bg1st5lhmo1_1280.jpg)">
+        <figure class="isousel-item active" style="background-image:url(http://24.media.tumblr.com/786cef21ca271002c4a434e905621d20/tumblr_mvyx8txG0p1st5lhmo1_1280.jpg)">
         </figure>
+
+        <figure class="isousel-item up" style="background-image:url(http://25.media.tumblr.com/7e1b1652c64a436d289c0e01db65171d/tumblr_mve2y4i1bg1st5lhmo1_1280.jpg)">
+        </figure>
+
+        <!--
         <figure class="isousel-item">
           <iframe src="http://isotop.se" frameborder="0" allowfullscreen></iframe>
         </figure>
+        -->
+
+        <figure class="isousel-item">
+          <iframe src="http://www.youtube-nocookie.com/embed/T4grU4gbmOs" frameborder="0" allowfullscreen></iframe>
+        </figure>
+
+        <figure class="isousel-item">
+          <iframe src="http://player.vimeo.com/video/77920375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+          <!-- Minnepakke smakebit from Stavanger, Norway 2013 -->
+        </figure>
+
         <figure class="isousel-item" style="background-image:url(http://25.media.tumblr.com/1998d387f3a0640a01edabd87ff1779f/tumblr_mve3hgy0pJ1st5lhmo1_1280.jpg)">
+        </figure>
+
+        <figure class="isousel-item" style="background-image:url(http://25.media.tumblr.com/ba66b742023a63a0dce9dcea2d00711b/tumblr_muui0tANw31st5lhmo1_1280.jpg)">
+        </figure>
+
+        <figure class="isousel-item" style="background-image:url(http://31.media.tumblr.com/099300b2f98941e43b443f1370400f45/tumblr_mve3jil0l81st5lhmo1_1280.jpg)">
+        </figure>
+
+        <figure class="isousel-item" style="background-image:url(http://31.media.tumblr.com/6c5d3876dd9858685cc8b584503101b1/tumblr_mve3kz3WG21st5lhmo1_1280.jpg)">
         </figure>
       </div>
     </div>
 
     <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/jquery.isousel.js"></script>
+    <script>
+      (function ($) {
+
+        $('.isousel').isousel();
+
+        setInterval(function () {
+         // $('.isousel').isousel('next');
+        }, 5000);
+
+      })(jQuery);
+    </script>
 </body>
 </html>

@@ -67,11 +67,3 @@
 
 
 })(jQuery);
-
-
-// Demo code
-
-(function animloop(){
-  ///setInterval(animloop, 5000);
-  $('.isousel').isousel('next');
-})();
